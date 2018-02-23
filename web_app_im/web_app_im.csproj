@@ -609,6 +609,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="img\business-and-office\png\_notes\" />
+    <Folder Include="material\mediasuperior\biologia\NewFolder1\" />
     <Folder Include="material\mediasuperior\habilidad_verbal\" />
     <Folder Include="material\mediasuperior\historia_mexico\" />
     <Folder Include="material\mediasuperior\historia_universal\" />
