@@ -13,5 +13,25 @@ namespace web_app_im.material.mediasuperior.habilidad_verbal
         {
 
         }
+
+        protected void lkb_tema1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void lkb_tema2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void lkb_tema3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void lkb_tema4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

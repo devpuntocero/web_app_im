@@ -46,10 +46,10 @@
                                             <ul class="nav navbar-nav text-left">
                                                 <li>
                                                     <div id="div_resumen" runat="server">
-                                                        <asp:LinkButton CssClass="buttonClass" ID="lkb_tema1" runat="server" Text="Tema 1. Establecer analogias entre palabras" ></asp:LinkButton><br />
-                                                        <asp:LinkButton CssClass="buttonClass" ID="lkb_tema2" runat="server" Text="Tema 2. Distinguir palabras con significado similar" ></asp:LinkButton><br />
-                                                        <asp:LinkButton CssClass="buttonClass" ID="lkb_tema3" runat="server" Text="Tema 3. Distinguir palabras con significado opuesto" ></asp:LinkButton><br />
-                                                        <asp:LinkButton CssClass="buttonClass" ID="lkb_tema4" runat="server" Text="Tema 4. Comprensión de lectura" ></asp:LinkButton><br />
+                                                        <asp:LinkButton CssClass="buttonClass" ID="lkb_tema1" runat="server" Text="Tema 1. Establecer analogias entre palabras" OnClick="lkb_tema1_Click" ></asp:LinkButton><br />
+                                                        <asp:LinkButton CssClass="buttonClass" ID="lkb_tema2" runat="server" Text="Tema 2. Distinguir palabras con significado similar" OnClick="lkb_tema2_Click" ></asp:LinkButton><br />
+                                                        <asp:LinkButton CssClass="buttonClass" ID="lkb_tema3" runat="server" Text="Tema 3. Distinguir palabras con significado opuesto" OnClick="lkb_tema3_Click" ></asp:LinkButton><br />
+                                                        <asp:LinkButton CssClass="buttonClass" ID="lkb_tema4" runat="server" Text="Tema 4. Comprensión de lectura" OnClick="lkb_tema4_Click" ></asp:LinkButton><br />
 
                                                     </div>
                                                 </li>

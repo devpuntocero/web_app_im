@@ -18,5 +18,30 @@ namespace web_app_im.material
         {
             Response.Redirect("/material/mediasuperior/biologia/ctrl_biologia.aspx");
         }
+
+        protected void img_espanol_Click(object sender, ImageClickEventArgs e)
+        {
+
+        }
+
+        protected void img_historia_universal_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("/material/mediasuperior/historia_universal/ctrl_historia_universal.aspx");
+        }
+
+        protected void img_matematicas_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("/material/mediasuperior/matematicas/ctrl_matematicas.aspx");
+        }
+
+        protected void img_quimica_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("/material/mediasuperior/quimica/ctrl_quimica.aspx");
+        }
+
+        protected void img_historia_mexico_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("/material/mediasuperior/historia_universal/ctrl_historia_universal.aspx");
+        }
     }
 }

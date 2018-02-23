@@ -46,11 +46,11 @@
                                             <ul class="nav navbar-nav text-left">
                                                 <li>
                                                     <div id="div_resumen" runat="server">
-                     <asp:LinkButton CssClass="buttonClass" ID="lkb_tema1" runat="server" Text="El México Antiguo" ></asp:LinkButton><br />
-<asp:LinkButton CssClass="buttonClass" ID="lkb_tema2" runat="server" Text="La conquista" ></asp:LinkButton><br />
-<asp:LinkButton CssClass="buttonClass" ID="lkb_tema3" runat="server" Text="La colonia: Nueva España" ></asp:LinkButton><br />
-<asp:LinkButton CssClass="buttonClass" ID="lkb_tema4" runat="server" Text="La independencia" ></asp:LinkButton><br />
-<asp:LinkButton CssClass="buttonClass" ID="lkb_tema5" runat="server" Text="Nación independiente" ></asp:LinkButton><br />
+                                                        <asp:LinkButton CssClass="buttonClass" ID="lkb_tema1" runat="server" Text="El México Antiguo" ></asp:LinkButton><br />
+                                                        <asp:LinkButton CssClass="buttonClass" ID="lkb_tema2" runat="server" Text="La conquista" ></asp:LinkButton><br />
+                                                        <asp:LinkButton CssClass="buttonClass" ID="lkb_tema3" runat="server" Text="La colonia: Nueva España" ></asp:LinkButton><br />
+                                                        <asp:LinkButton CssClass="buttonClass" ID="lkb_tema4" runat="server" Text="La independencia" ></asp:LinkButton><br />
+                                                        <asp:LinkButton CssClass="buttonClass" ID="lkb_tema5" runat="server" Text="Nación independiente" ></asp:LinkButton><br />
 <asp:LinkButton CssClass="buttonClass" ID="lkb_tema6" runat="server" Text="Intervenciones extranjeras" ></asp:LinkButton><br />
 <asp:LinkButton CssClass="buttonClass" ID="lkb_tema7" runat="server" Text="La reforma y el segundo imperio" ></asp:LinkButton><br />
 <asp:LinkButton CssClass="buttonClass" ID="lkb_tema8" runat="server" Text="El porfiriato" ></asp:LinkButton><br />

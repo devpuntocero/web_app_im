@@ -35,7 +35,7 @@
                                 <h2>Biología</h2>
                             </div>
                             <div class="col-md-4 text-center">
-                                <asp:ImageButton CssClass="center-block img-responsive" ID="img_espanol" runat="server" ImageUrl="~/img/business-and-office/png/301-notebook.png" Width="64" Height="64" />
+                                <asp:ImageButton CssClass="center-block img-responsive" ID="img_espanol" runat="server" ImageUrl="~/img/business-and-office/png/301-notebook.png" Width="64" Height="64" OnClick="img_espanol_Click" />
                                 <h2>Español</h2>
                             </div>
                             <div class="col-md-4 text-center">
@@ -54,7 +54,7 @@
                                 <h2>Geografía</h2>
                             </div>
                             <div class="col-md-4 text-center">
-                                <asp:ImageButton CssClass="center-block img-responsive" ID="img_historia_universal" runat="server" ImageUrl="~/img/business-and-office/png/301-notebook.png" Width="64" Height="64"  />
+                                <asp:ImageButton CssClass="center-block img-responsive" ID="img_historia_universal" runat="server" ImageUrl="~/img/business-and-office/png/301-notebook.png" Width="64" Height="64" OnClick="img_historia_universal_Click"  />
                                 <h2>Historia Universal</h2>
 
                             </div>
@@ -65,17 +65,17 @@
                                 <h2>Habilidad Matemática</h2>
                             </div>
                             <div class="col-md-4 text-center">
-                                <asp:ImageButton CssClass="center-block img-responsive" ID="img_matematicas" runat="server" ImageUrl="~/img/business-and-office/png/301-notebook.png" Width="64" Height="64"  />
+                                <asp:ImageButton CssClass="center-block img-responsive" ID="img_matematicas" runat="server" ImageUrl="~/img/business-and-office/png/301-notebook.png" Width="64" Height="64"  OnClick="img_matematicas_Click" />
                                 <h2>Matemáticas</h2>
                             </div>
                             <div class="col-md-4 text-center">
-                                <asp:ImageButton CssClass="center-block img-responsive" ID="img_quimica" runat="server" ImageUrl="~/img/business-and-office/png/301-notebook.png" Width="64" Height="64"  />
+                                <asp:ImageButton CssClass="center-block img-responsive" ID="img_quimica" runat="server" ImageUrl="~/img/business-and-office/png/301-notebook.png" Width="64" Height="64" OnClick="img_quimica_Click"  />
                                 <h2>Química</h2>
 
                             </div>
                             <div class="row">
                                 <div class="col-md-4 text-center">
-                                    <asp:ImageButton CssClass="center-block img-responsive" ID="img_historia_mexico" runat="server" ImageUrl="~/img/business-and-office/png/301-notebook.png" Width="64" Height="64" />
+                                    <asp:ImageButton CssClass="center-block img-responsive" ID="img_historia_mexico" runat="server" ImageUrl="~/img/business-and-office/png/301-notebook.png" Width="64" Height="64" OnClick="img_historia_mexico_Click" />
                                     <h2>Historia de México</h2>
                                 </div>
                             </div>

@@ -46,17 +46,17 @@
                                             <ul class="nav navbar-nav text-left">
                                                 <li>
                                                     <div id="div_resumen" runat="server">
-                                                        <asp:LinkButton CssClass="buttonClass" ID="lkb_tema1" runat="server" Text="El México Antiguo" ></asp:LinkButton><br />
-                                                        <asp:LinkButton CssClass="buttonClass" ID="lkb_tema2" runat="server" Text="La conquista" ></asp:LinkButton><br />
-                                                        <asp:LinkButton CssClass="buttonClass" ID="lkb_tema3" runat="server" Text="La colonia: Nueva España" ></asp:LinkButton><br />
-                                                        <asp:LinkButton CssClass="buttonClass" ID="lkb_tema4" runat="server" Text="La independencia" ></asp:LinkButton><br />
-                                                        <asp:LinkButton CssClass="buttonClass" ID="lkb_tema5" runat="server" Text="Nación independiente" ></asp:LinkButton><br />
-                                                        <asp:LinkButton CssClass="buttonClass" ID="lkb_tema6" runat="server" Text="Intervenciones extranjeras" ></asp:LinkButton><br />
-                                                        <asp:LinkButton CssClass="buttonClass" ID="lkb_tema7" runat="server" Text="La reforma y el segundo imperio" ></asp:LinkButton><br />
-                                                        <asp:LinkButton CssClass="buttonClass" ID="lkb_tema8" runat="server" Text="El porfiriato" ></asp:LinkButton><br />
-                                                        <asp:LinkButton CssClass="buttonClass" ID="lkb_tema9" runat="server" Text="La revolución" ></asp:LinkButton><br />
-                                                        <asp:LinkButton CssClass="buttonClass" ID="lkb_tema10" runat="server" Text="Obregón y Calles" ></asp:LinkButton><br />
-                                                        <asp:LinkButton CssClass="buttonClass" ID="lkb_tema11" runat="server" Text="La posrevolución" ></asp:LinkButton><br />
+                                                        <asp:LinkButton CssClass="buttonClass" ID="lkb_tema1" runat="server" Text="El México Antiguo" OnClick="lkb_tema1_Click" ></asp:LinkButton><br />
+                                                        <asp:LinkButton CssClass="buttonClass" ID="lkb_tema2" runat="server" Text="La conquista" OnClick="lkb_tema2_Click" ></asp:LinkButton><br />
+                                                        <asp:LinkButton CssClass="buttonClass" ID="lkb_tema3" runat="server" Text="La colonia: Nueva España" OnClick="lkb_tema3_Click" ></asp:LinkButton><br />
+                                                        <asp:LinkButton CssClass="buttonClass" ID="lkb_tema4" runat="server" Text="La independencia" OnClick="lkb_tema4_Click" ></asp:LinkButton><br />
+                                                        <asp:LinkButton CssClass="buttonClass" ID="lkb_tema5" runat="server" Text="Nación independiente" OnClick="lkb_tema5_Click" ></asp:LinkButton><br />
+                                                        <asp:LinkButton CssClass="buttonClass" ID="lkb_tema6" runat="server" Text="Intervenciones extranjeras" OnClick="lkb_tema6_Click" ></asp:LinkButton><br />
+                                                        <asp:LinkButton CssClass="buttonClass" ID="lkb_tema7" runat="server" Text="La reforma y el segundo imperio" OnClick="lkb_tema7_Click" ></asp:LinkButton><br />
+                                                        <asp:LinkButton CssClass="buttonClass" ID="lkb_tema8" runat="server" Text="El porfiriato" OnClick="lkb_tema8_Click" ></asp:LinkButton><br />
+                                                        <asp:LinkButton CssClass="buttonClass" ID="lkb_tema9" runat="server" Text="La revolución" OnClick="lkb_tema9_Click" ></asp:LinkButton><br />
+                                                        <asp:LinkButton CssClass="buttonClass" ID="lkb_tema10" runat="server" Text="Obregón y Calles" OnClick="lkb_tema10_Click" ></asp:LinkButton><br />
+                                                        <asp:LinkButton CssClass="buttonClass" ID="lkb_tema11" runat="server" Text="La posrevolución" OnClick="lkb_tema11_Click" ></asp:LinkButton><br />
 
                                                     </div>
                                                 </li>
