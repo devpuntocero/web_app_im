@@ -78,11 +78,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <Content Include="material\mediasuperior\biologia\ctrl_biologia.aspx" />
-    <Content Include="material\mediasuperior\civica_etica\ctrl_civica_etica.aspx" />
-    <Content Include="material\mediasuperior\espanol\ctrl_espanol.aspx" />
-    <Content Include="material\mediasuperior\geografia\ctrl_geografia.aspx" />
-    <Content Include="material\mediasuperior\habilidad_matematica\ctrl_habilidad_matematica.aspx" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
     <None Include="Web.Debug.config">
@@ -568,48 +563,17 @@
     <Compile Include="material\ctrl_media_superior.aspx.designer.cs">
       <DependentUpon>ctrl_media_superior.aspx</DependentUpon>
     </Compile>
-    <Compile Include="material\mediasuperior\biologia\ctrl_biologia.aspx.cs">
-      <DependentUpon>ctrl_biologia.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="material\mediasuperior\biologia\ctrl_biologia.aspx.designer.cs">
-      <DependentUpon>ctrl_biologia.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="material\mediasuperior\civica_etica\ctrl_civica_etica.aspx.cs">
-      <DependentUpon>ctrl_civica_etica.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="material\mediasuperior\civica_etica\ctrl_civica_etica.aspx.designer.cs">
-      <DependentUpon>ctrl_civica_etica.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="material\mediasuperior\espanol\ctrl_espanol.aspx.cs">
-      <DependentUpon>ctrl_espanol.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="material\mediasuperior\espanol\ctrl_espanol.aspx.designer.cs">
-      <DependentUpon>ctrl_espanol.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="material\mediasuperior\geografia\ctrl_geografia.aspx.cs">
-      <DependentUpon>ctrl_geografia.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="material\mediasuperior\geografia\ctrl_geografia.aspx.designer.cs">
-      <DependentUpon>ctrl_geografia.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="material\mediasuperior\habilidad_matematica\ctrl_habilidad_matematica.aspx.cs">
-      <DependentUpon>ctrl_habilidad_matematica.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="material\mediasuperior\habilidad_matematica\ctrl_habilidad_matematica.aspx.designer.cs">
-      <DependentUpon>ctrl_habilidad_matematica.aspx</DependentUpon>
-    </Compile>
     <Compile Include="mdl_encrypta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="img\business-and-office\png\_notes\" />
-    <Folder Include="material\mediasuperior\biologia\NewFolder1\" />
+    <Folder Include="material\mediasuperior\biologia\" />
+    <Folder Include="material\mediasuperior\civica_etica\" />
+    <Folder Include="material\mediasuperior\espanol\" />
+    <Folder Include="material\mediasuperior\geografia\" />
+    <Folder Include="material\mediasuperior\habilidad_matematica\" />
     <Folder Include="material\mediasuperior\habilidad_verbal\" />
     <Folder Include="material\mediasuperior\historia_mexico\" />
     <Folder Include="material\mediasuperior\historia_universal\" />
